@@ -12,7 +12,8 @@ public class MainMenuManager : MonoBehaviour
         Synopse,
         Credit,
         Setting,
-        Materi
+        Materi,
+        Keluar
     };
 
     public GameObject mainMenuContainer;
@@ -20,6 +21,7 @@ public class MainMenuManager : MonoBehaviour
     public GameObject creditContainer;
     public GameObject settingContainer;
     public GameObject materiContainer;
+    public GameObject keluarContainer;
 
 
     private MainMenuMode mainMenuMode;
@@ -54,6 +56,11 @@ public class MainMenuManager : MonoBehaviour
         mainMenuMode = MainMenuMode.Materi;
         SetState();
     }
+    public void ClickKeluar()
+    {
+        mainMenuMode = MainMenuMode.Keluar;
+        SetState();
+    }
     public void ClickExit()
     {
         Application.Quit();
@@ -71,6 +78,7 @@ public class MainMenuManager : MonoBehaviour
         creditContainer.SetActive(false);
         settingContainer.SetActive(false);
         materiContainer.SetActive(false);
+        keluarContainer.SetActive(false);
 
 
         switch (mainMenuMode)
@@ -89,6 +97,9 @@ public class MainMenuManager : MonoBehaviour
                 break;
             case MainMenuMode.Materi:
                 materiContainer.SetActive(true);
+                break;
+            case MainMenuMode.Keluar:
+                keluarContainer.SetActive(true);
                 break;
         }
     }

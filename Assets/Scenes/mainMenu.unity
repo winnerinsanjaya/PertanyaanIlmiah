@@ -2646,6 +2646,7 @@ MonoBehaviour:
   creditContainer: {fileID: 913862111}
   settingContainer: {fileID: 668484196}
   materiContainer: {fileID: 1067664945}
+  keluarContainer: {fileID: 1647374222}
 --- !u!1 &291043260
 GameObject:
   m_ObjectHideFlags: 0
@@ -6056,10 +6057,10 @@ RectTransform:
   m_Father: {fileID: 1814246004}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 225, y: -75}
-  m_SizeDelta: {x: 150, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &739871413
 MonoBehaviour:
@@ -6104,7 +6105,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 739871414}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 262538512}
+        m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
+        m_MethodName: ClickExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &739871414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11273,7 +11286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1389918831
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13303,7 +13316,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1647374223
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14149,10 +14162,10 @@ RectTransform:
   m_Father: {fileID: 1814246004}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 475, y: -75}
-  m_SizeDelta: {x: 150, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1766602020
 MonoBehaviour:
@@ -14197,7 +14210,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1766602021}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 262538512}
+        m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
+        m_MethodName: ClickMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1766602021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16041,7 +16066,7 @@ GameObject:
   - component: {fileID: 1980029346}
   - component: {fileID: 1980029345}
   m_Layer: 5
-  m_Name: ExitButton
+  m_Name: KeluarButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16113,7 +16138,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 262538512}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
-        m_MethodName: ClickExit
+        m_MethodName: ClickKeluar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
