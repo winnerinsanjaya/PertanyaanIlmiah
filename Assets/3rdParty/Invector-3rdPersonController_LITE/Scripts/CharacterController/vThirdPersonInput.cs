@@ -86,8 +86,18 @@ namespace Invector.vCharacterController
 
         public virtual void MoveInput()
         {
-            cc.input.x = joystick.Horizontal;
-            cc.input.z = joystick.Vertical;
+            if (!QuizManager.instance.isOnQUiz)
+            {
+                Debug.Log("joysticknotactivee");
+                cc.input.x = joystick.Horizontal;
+                cc.input.z = joystick.Vertical;
+            }
+            if (QuizManager.instance.isOnQUiz)
+            {
+                Debug.Log("joysticknotactivee");
+                cc.input.x = 0;
+                cc.input.z = 0;
+            }
         }
 
         protected virtual void CameraInput()

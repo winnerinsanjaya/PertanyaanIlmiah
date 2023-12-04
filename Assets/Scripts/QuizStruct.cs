@@ -10,6 +10,7 @@ public class QuizStruct
     public string Soal;
     public List<string> Jawaban;
     public int Benar;
+    public Sprite sprite;
 }
 
 [Serializable]
