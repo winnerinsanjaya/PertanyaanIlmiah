@@ -4,6 +4,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using static MainMenuManager;
+using System.Linq;
+using System;
 
 public class ItemScript : MonoBehaviour
 {
@@ -18,6 +20,8 @@ public class ItemScript : MonoBehaviour
     public int QuizIndex;
 
     public TMP_Text soal;
+    public TMP_Text soalExtend;
+    public Image imageSoal;
     public List<Button> optionButton;
 
     [SerializeField]
@@ -83,11 +87,21 @@ public class ItemScript : MonoBehaviour
         quizState = QuizState.Quiz;
         SetState();
 
-        //soal.text = QuizManager.instance.quizDatabase.quizStruct[QuizIndex].Soal;
         soal.text = QuizManager.instance.quizDatabaseList[level].quizStruct[QuizIndex].Soal;
-
-        for(int i = 0; i < 3; i++)
+        
+        if(QuizManager.instance.quizDatabaseList[level].quizStruct[QuizIndex].sprite != null)
         {
+            string[] txt = QuizManager.instance.quizDatabaseList[level].quizStruct[QuizIndex].Soal.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
+            soal.text = txt[0];
+            soalExtend.text = txt[1];
+            imageSoal.sprite = QuizManager.instance.quizDatabaseList[level].quizStruct[QuizIndex].sprite;
+        }
+
+        
+
+        for (int i = 0; i < 3; i++)
+        {
+            
             //TMP_Text tmp =  quizText[i];
             TMP_Text tmp = optionButton[i].transform.GetChild(0).GetComponent<TMP_Text>();
             tmp.text = QuizManager.instance.quizDatabaseList[level].quizStruct[QuizIndex].Jawaban[i];
