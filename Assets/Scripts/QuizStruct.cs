@@ -11,6 +11,7 @@ public class QuizStruct
     public List<string> Jawaban;
     public int Benar;
     public Sprite sprite;
+    public float time;
 }
 
 [Serializable]

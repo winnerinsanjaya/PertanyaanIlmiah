@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class QuizManager : MonoBehaviour
 {
-    public QuizDatabase quizDatabase;
+
+    public List<QuizDatabase> quizDatabaseList;
 
     public static QuizManager instance;
 

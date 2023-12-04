@@ -14,6 +14,7 @@ public class ItemScript : MonoBehaviour
         Salah
     };
 
+    public int level;
     public int QuizIndex;
 
     public TMP_Text soal;
@@ -36,12 +37,9 @@ public class ItemScript : MonoBehaviour
     public GameObject salahContainer;
 
     private QuizState quizState;
+
     public void Start()
     {
-        timerOr = timer;
-
-
-        
 
     }
 
@@ -85,18 +83,21 @@ public class ItemScript : MonoBehaviour
         quizState = QuizState.Quiz;
         SetState();
 
-        soal.text = QuizManager.instance.quizDatabase.quizStruct[QuizIndex].Soal;
+        //soal.text = QuizManager.instance.quizDatabase.quizStruct[QuizIndex].Soal;
+        soal.text = QuizManager.instance.quizDatabaseList[level].quizStruct[QuizIndex].Soal;
 
         for(int i = 0; i < 3; i++)
         {
             //TMP_Text tmp =  quizText[i];
             TMP_Text tmp = optionButton[i].transform.GetChild(0).GetComponent<TMP_Text>();
-            tmp.text = QuizManager.instance.quizDatabase.quizStruct[QuizIndex].Jawaban[i];
+            tmp.text = QuizManager.instance.quizDatabaseList[level].quizStruct[QuizIndex].Jawaban[i];
             int answerIdx = i+1;
             optionButton[i].onClick.AddListener(delegate { AnswerClick(answerIdx); });
+            timer = QuizManager.instance.quizDatabaseList[level].quizStruct[QuizIndex].time;
+            timerOr = timer;
         }
 
-        answer = QuizManager.instance.quizDatabase.quizStruct[QuizIndex].Benar;
+        answer = QuizManager.instance.quizDatabaseList[level].quizStruct[QuizIndex].Benar;
 
         StartTimer();
     }
@@ -132,7 +133,6 @@ public class ItemScript : MonoBehaviour
 
     private void StartTimer()
     {
-        timer = timerOr;
         timerStarted = true;
     }
 
