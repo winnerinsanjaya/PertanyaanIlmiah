@@ -133,6 +133,13 @@ public class ItemScript : MonoBehaviour
     private void Salah()
     {
         quizState = QuizState.Salah;
+
+        GameManager.Instance.Wrong();
+
+        for (int i = 0; i < 3; i++)
+        {
+            optionButton[i].onClick.RemoveAllListeners();
+        }
         SetState();
 
         Debug.Log("Salah");
@@ -140,6 +147,8 @@ public class ItemScript : MonoBehaviour
     private void Benar()
     {
         quizState = QuizState.Benar;
+
+        GameManager.Instance.Correct(level);
         SetState();
 
         Debug.Log("Benar");
@@ -164,8 +173,12 @@ public class ItemScript : MonoBehaviour
     {
         if(i == 0)
         {
-            QuizManager.instance.isOnQUiz = false;
-            Destroy(this.transform.parent.gameObject); 
+            if (GameManager.Instance.LevelLeft[level] > 0)
+            {
+                QuizManager.instance.isOnQUiz = false;
+            }
+            Destroy(this.transform.parent.gameObject);
+            
             return;
         }
 
