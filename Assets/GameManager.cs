@@ -82,6 +82,13 @@ public class GameManager : MonoBehaviour
         }
         if (LevelLeft[2] <= 0)
         {
+            QuizManager.instance.isOnQUiz = true;
+            LevelCompletePanel[2].SetActive(true);
+            Border[2].SetActive(false);
+        }
+
+        if (LevelLeft[3] <= 0)
+        {
             SetWin();
         }
 
@@ -110,6 +117,7 @@ public class GameManager : MonoBehaviour
 
         LevelCompletePanel[0].SetActive(false);
         LevelCompletePanel[1].SetActive(false);
+        LevelCompletePanel[2].SetActive(false);
     }
 
     public void GoToScene(string sceneName)

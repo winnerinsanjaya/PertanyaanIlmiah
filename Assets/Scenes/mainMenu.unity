@@ -3584,11 +3584,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\tCarol adalah murid sekolah SMP, ketika pulang bermain entah kenapa tiba-tiba
-    dia masuk kesebah desa ini dia harus mencari beberapa hewan atau tumbuhan.\n\tJika
-    menemukannya maka dia harus menjawab soal dengan benar.\n\tIngat !!!\n\tJangan
-    sampai kehabisan waktu dan kesempatan ini untuk kelua dari desa ini, jika tidak
-    pointnya akan dipotong.\n\tBaiklah mari kita bantu carol untuk menyelesaikan
-    misi ini"
+    dia masuk kesebuah desa ini, lalu bagaimana cara dia untuk keluar dari desa ini
+    ?\n\tDia harus mencari makhluk hidup berupa hewan yang tersebar di desa ini.
+    Jika menemukannya maka dia harus menjawab pertanyaan dengan benar. \n\tIngat!!!!
+    \n\tJangan sampai kehabisan waktu dan kesempatan ini untuk keluar dari desa.
+    Jika tidak pointnya akan dipotong. Baiklah, ayo mari kita bantu Carol untuk menyelesaikan\_misi\_ini."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -10506,7 +10506,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1444213805}
   m_HandleRect: {fileID: 1444213804}
   m_Direction: 2
-  m_Value: 0.000000012711754
+  m_Value: 1
   m_Size: 0.066805616
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -11935,8 +11935,8 @@ RectTransform:
   m_Father: {fileID: 1134480793}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.000000011862538}
-  m_AnchorMax: {x: 1, y: 0.06680563}
+  m_AnchorMin: {x: 0, y: 0.9331944}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -13232,7 +13232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 9602.947}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -120, y: 10290.404}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1641520577

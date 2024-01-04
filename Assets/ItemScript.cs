@@ -99,7 +99,7 @@ public class ItemScript : MonoBehaviour
 
         
 
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < optionButton.Count; i++)
         {
             
             //TMP_Text tmp =  quizText[i];
