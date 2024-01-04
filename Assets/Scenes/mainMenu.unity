@@ -4748,8 +4748,8 @@ MonoBehaviour:
     memiliki membran inti sel), namun memiliki jaringan yang sederhana dan tidak
     memiliki organ. Sel tubuh yang Menyusun Protista ada yang mirip dengan hewan,
     tumbuhan, dan hewan tergantung jenis organismenya. Misalnya, Protista mirip hewan
-    (protozoa) tersusun atas atas satu sel (uniseluler) sebagai contoh : Plasmodium,
-    Amoeba proteus, Trypanosoma gambiense dan Paramaecium caudatum.\r\n\n\tBerikut
+    (protozoa) tersusun atas atas satu sel (uniseluler) sebagai contoh : <i>Plasmodium,
+    Amoeba proteus, Trypanosoma gambiense dan Paramaecium caudatum.</i>\r\n\n\tBerikut
     ini Beberapa Jenis Protista dan Peranannya\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -7903,8 +7903,8 @@ MonoBehaviour:
   m_text: "\tMakhluk hidup memberikan tanggapan terhadap perubahan lingkungan. Perubahan
     lingkungan baik internal maupun eksternal disebut dengan stimulus. Reaksi terhadap
     perubahan lingkungan disebut dengan respons. Respon terhadap stimulus pada tumbuhan
-    Sebagai contoh, bunga matahari (Helianthus annuus) cenderung bergerak atau mengikuti
-    pergerakan matahari, yang dikenal sebagai fototropisme"
+    Sebagai contoh, bunga matahari <i>(Helianthus annuus)</i> cenderung bergerak
+    atau mengikuti pergerakan matahari, yang dikenal sebagai fototropisme"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -8659,9 +8659,9 @@ MonoBehaviour:
     juga bergerak setiap kali tumbuh atau menanggapi cahaya. Ciri-ciri kehidupan
     lainnya, seperti menanggapi rangsangan dan makan (mengumpulkan energi), akan
     mengandalkan gerakan. Salah satu contoh yang paling terkenal adalah gerakan tumbuhan
-    sensitif, seperti tumbuhan Mimosa pudica atau \"putri malu.\" Tumbuhan ini memiliki
-    daun yang akan melipat atau menutup secara cepat ketika disentuh atau saat terjadi
-    rangsangan fisik.\r"
+    sensitif, seperti tumbuhan <i>Mimosa pudica</i> atau \"putri malu.\" Tumbuhan
+    ini memiliki daun yang akan melipat atau menutup secara cepat ketika disentuh
+    atau saat terjadi rangsangan fisik.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -9098,16 +9098,17 @@ MonoBehaviour:
     divisi selalu menggunakan akhiran -phyta.\r\n \r\n\tSpesies adalah takson yang
     paling rendah dan paling banyak memiliki persamaan. Suatu organisme dikatakan
     satu spesies dengan organisme lainnya jika dikawinkan dapat menghasilkan keturunan
-    yang fertil.\r\n\n\tTata nama penulisan spesies menggunakan aturan binomial nomenclature.
-    Penulisan nama spesies terdiri atas dua kata latin, kata pertama menunjukkan
-    genus, kata kedua menunjukkan nama spesifiknya, dicetak miring atau digaris bawah
-    terpisah. Sebagai contoh, penulisan nama yang tepat untuk bunga mawar adalah
-    Rosa sinensis atau Rosa sinensis. \r\n\n\tPada organisme satu spesies terkadang
-    masih ditemukan perbedaan ciri yang sangat jelas, sangat khusus atau bervariasi
-    sehingga disebut varietas. Penulisan varietas dicetak miring atau garis bawah
-    terpisah. Misalnya Zea mays var tunicata atau Zea mays var tunicata. Jika pada
-    bidang pertanian, varietas disebut dengan kultivar dan penulisannya cukup diberi
-    tanda petik, misalnya Zea mays \u2018tunicata\u2019\r"
+    yang fertil.\r\n\n\tTata nama penulisan spesies menggunakan aturan <i>binomial
+    nomenclature.</i> Penulisan nama spesies terdiri atas dua kata latin, kata pertama
+    menunjukkan genus, kata kedua menunjukkan nama spesifiknya, dicetak miring atau
+    digaris bawah terpisah. Sebagai contoh, penulisan nama yang tepat untuk bunga
+    mawar adalah <i>Rosa sinensis</i> atau Rosa sinensis. \r\n\n\tPada organisme
+    satu spesies terkadang masih ditemukan perbedaan ciri yang sangat jelas, sangat
+    khusus atau bervariasi sehingga disebut varietas. Penulisan varietas dicetak
+    miring atau garis bawah terpisah. Misalnya <i>Zea mays</i> var <i>tunicata</i>
+    atau Zea mays var tunicata. Jika pada bidang pertanian, varietas disebut dengan
+    kultivar dan penulisannya cukup diberi tanda petik, misalnya <i>Zea mays</i>
+    \u2018tunicata\u2019\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -11605,7 +11606,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\tMakhluk hidup secara struktural tersusun dari sel. Makhluk hidup ada
-    yang tersusun dari satu sel (uniseluler) seperti Paramecium, Amoeba, dan Euglena.\r\n\t\n\tMakhluk
+    yang tersusun dari satu sel (uniseluler) seperti <i>Paramecium, Amoeba, dan Euglena.\r</i>\n\t\n\tMakhluk
     hidup yang tersusun dari banyak sel (multiseluler) contohnya manusia, hewan dan
     jamur. Virus tidak termasuk ke dalam makhluk hidup karena tidak tersusun dari
     sel. Tubuh virus hanya tersusun dari protein yang di dalamnya terdapat materi
