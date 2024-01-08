@@ -41,6 +41,7 @@ public class GameManager : MonoBehaviour
 
     private void OnStart()
     {
+        AudioPlayer.instance.PlayBGM(1);
         health = 5;
         score = 0;
 
@@ -113,6 +114,7 @@ public class GameManager : MonoBehaviour
 
     public void ClosePanel()
     {
+        AudioPlayer.instance.PlaySFX(0);
         QuizManager.instance.isOnQUiz = false;
 
         LevelCompletePanel[0].SetActive(false);

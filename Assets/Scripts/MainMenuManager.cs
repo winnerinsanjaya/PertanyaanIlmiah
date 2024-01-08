@@ -27,6 +27,12 @@ public class MainMenuManager : MonoBehaviour
 
     private MainMenuMode mainMenuMode;
 
+    public void Start()
+    {
+        AudioPlayer.instance.ChangeSfxVolume(0f);
+        AudioPlayer.instance.PlayBGM(0);
+    }
+
     public void Awake()
     {
         ClickMainMenu();
@@ -34,41 +40,56 @@ public class MainMenuManager : MonoBehaviour
 
     public void ClickMainMenu()
     {
+        AudioPlayer.instance.PlaySFX(0);
         mainMenuMode = MainMenuMode.MainMenu;
         SetState();
     }
     public void ClickSynopse()
     {
+        AudioPlayer.instance.ChangeSfxVolume(1f);
+        AudioPlayer.instance.PlaySFX(0);
         mainMenuMode = MainMenuMode.Synopse;
         SetState();
     }
     public void ClickCredit()
     {
+        AudioPlayer.instance.ChangeSfxVolume(1f);
+        AudioPlayer.instance.PlaySFX(0);
         mainMenuMode = MainMenuMode.Credit;
         SetState();
     }
     public void ClickSetting()
     {
+        AudioPlayer.instance.ChangeSfxVolume(1f);
+        AudioPlayer.instance.PlaySFX(0);
         mainMenuMode = MainMenuMode.Setting;
         SetState();
     }
     public void ClickMateri()
     {
+        AudioPlayer.instance.ChangeSfxVolume(1f);
+        AudioPlayer.instance.PlaySFX(0);
         mainMenuMode = MainMenuMode.Materi;
         SetState();
     }
     public void ClickKeluar()
     {
+        AudioPlayer.instance.ChangeSfxVolume(1f);
+        AudioPlayer.instance.PlaySFX(0);
         mainMenuMode = MainMenuMode.Keluar;
         SetState();
     }
     public void ClickExit()
     {
+        AudioPlayer.instance.ChangeSfxVolume(1f);
+        AudioPlayer.instance.PlaySFX(0);
         Application.Quit();
     }
     
     public void ClickPlay()
     {
+        AudioPlayer.instance.ChangeSfxVolume(1f);
+        AudioPlayer.instance.PlaySFX(0);
         SceneManager.LoadScene("Gameplay1");
     }
 

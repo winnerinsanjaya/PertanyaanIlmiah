@@ -135,6 +135,7 @@ public class ItemScript : MonoBehaviour
 
     private void Salah()
     {
+        AudioPlayer.instance.PlaySFX(2);
         quizState = QuizState.Salah;
 
         GameManager.Instance.Wrong();
@@ -149,6 +150,7 @@ public class ItemScript : MonoBehaviour
     }
     private void Habis()
     {
+        AudioPlayer.instance.PlaySFX(3);
         quizState = QuizState.Habis;
 
         GameManager.Instance.Wrong();
@@ -163,6 +165,7 @@ public class ItemScript : MonoBehaviour
     }
     private void Benar()
     {
+        AudioPlayer.instance.PlaySFX(1);
         quizState = QuizState.Benar;
 
         GameManager.Instance.Correct(level);
@@ -188,7 +191,8 @@ public class ItemScript : MonoBehaviour
 
     public void OnClickBaik(int i)
     {
-        if(i == 0)
+        AudioPlayer.instance.PlaySFX(0);
+        if (i == 0)
         {
             if (GameManager.Instance.LevelLeft[level] > 0)
             {
