@@ -13,7 +13,8 @@ public class ItemScript : MonoBehaviour
     {
         Quiz,
         Benar,
-        Salah
+        Salah,
+        Habis
     };
 
     public int level;
@@ -39,6 +40,7 @@ public class ItemScript : MonoBehaviour
     public GameObject quizContainer;
     public GameObject benarContainer;
     public GameObject salahContainer;
+    public GameObject habisContainer;
 
     private QuizState quizState;
 
@@ -75,6 +77,7 @@ public class ItemScript : MonoBehaviour
                 timer = 0f;
                 UpdateTimerText();
                 timerStarted = false;
+                Habis();
             }
 
         }
@@ -144,6 +147,20 @@ public class ItemScript : MonoBehaviour
 
         Debug.Log("Salah");
     }
+    private void Habis()
+    {
+        quizState = QuizState.Habis;
+
+        GameManager.Instance.Wrong();
+
+        for (int i = 0; i < 3; i++)
+        {
+            optionButton[i].onClick.RemoveAllListeners();
+        }
+        SetState();
+
+        Debug.Log("Salah");
+    }
     private void Benar()
     {
         quizState = QuizState.Benar;
@@ -193,6 +210,7 @@ public class ItemScript : MonoBehaviour
         quizContainer.SetActive(false);
         salahContainer.SetActive(false);
         benarContainer.SetActive(false);
+        habisContainer.SetActive(false);
 
 
         switch (quizState)
@@ -205,6 +223,9 @@ public class ItemScript : MonoBehaviour
                 break;
             case QuizState.Salah:
                 salahContainer.SetActive(true);
+                break;
+            case QuizState.Habis:
+                habisContainer.SetActive(true);
                 break;
         }
     }
