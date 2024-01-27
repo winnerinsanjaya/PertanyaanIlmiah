@@ -177,11 +177,12 @@ MonoBehaviour:
   sfxClip:
   - {fileID: 8300000, guid: 453881c98f438384ebbc7be7793f1dab, type: 3}
   - {fileID: 8300000, guid: 60d1c36c70f93ec48b867a33acc83c91, type: 3}
-  - {fileID: 8300000, guid: aea8df81249af5d40a5a9c5878f35c0c, type: 3}
-  - {fileID: 8300000, guid: e561334f874716e4ba1130ddcab18f0d, type: 3}
+  - {fileID: 8300000, guid: 21fb856fd4117934ba456dce46db9cee, type: 3}
+  - {fileID: 8300000, guid: 0cccf0fed2374094e9c784327a77356b, type: 3}
+  - {fileID: 8300000, guid: 047b4e322252ef34584b215d4b166a4e, type: 3}
   bgmClip:
   - {fileID: 8300000, guid: 73c58f39baad5484bafb1ea6624f2dc9, type: 3}
-  - {fileID: 8300000, guid: 810057fcf0597c14cbd7e464689d69c0, type: 3}
+  - {fileID: 8300000, guid: e859d7927e81566459f976b74ed590c6, type: 3}
 --- !u!1 &8808754254901503499
 GameObject:
   m_ObjectHideFlags: 0

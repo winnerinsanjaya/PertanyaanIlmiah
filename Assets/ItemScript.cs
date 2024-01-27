@@ -121,7 +121,8 @@ public class ItemScript : MonoBehaviour
 
     public void AnswerClick(int index)
     {
-        if(answer == index)
+        AudioPlayer.instance.PlaySFX(4);
+        if (answer == index)
         {
             Benar();
             return;
@@ -191,7 +192,7 @@ public class ItemScript : MonoBehaviour
 
     public void OnClickBaik(int i)
     {
-        AudioPlayer.instance.PlaySFX(0);
+        AudioPlayer.instance.PlaySFX(4);
         if (i == 0)
         {
             if (GameManager.Instance.LevelLeft[level] > 0)

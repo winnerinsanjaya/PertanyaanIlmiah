@@ -114,7 +114,7 @@ public class GameManager : MonoBehaviour
 
     public void ClosePanel()
     {
-        AudioPlayer.instance.PlaySFX(0);
+        AudioPlayer.instance.PlaySFX(4);
         QuizManager.instance.isOnQUiz = false;
 
         LevelCompletePanel[0].SetActive(false);
@@ -125,5 +125,9 @@ public class GameManager : MonoBehaviour
     public void GoToScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+    public void SetOnQuiz(bool isTrue)
+    {
+        QuizManager.instance.isOnQUiz = isTrue;
     }
 }
