@@ -263,8 +263,8 @@ MonoBehaviour:
     berarti mereka dapat menghasilkan keturunan yang memiliki kemiripan dengan induknya.
     Reproduksi dapat terjadi dalam dua cara, yaitu secara seksual dan aseksual.\r\nReproduksi
     seksual melibatkan perpaduan sel kelamin jantan dan betina. Di sisi lain, reproduksi
-    aseksual tidak memerlukan pertemuan sel kelamin jantan dan betina; dalam hal
-    ini, hanya satu induk yang diperlukan. \r"
+    aseksual tidak memerlukan pertemuan sel kelamin jantan dan betina dalam hal ini,
+    hanya satu induk yang diperlukan. \r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -1841,20 +1841,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\tBagaimana membedakan antara makhluk hidup dengan benda mati?\r\n\n\tMakhluk
+  m_text: "\tBagaimana membedakan antara makhluk hidup dengan benda mati?  Makhluk
     hidup tentu saja akan menunjukkan karakteristik hidup, salah satunya menanggapi
     rangsang dan bergerak. Sebaliknya, benda mati seperti tanah dan batu tidak memiliki
     karakteristik ini. Meskipun demikian, kadang-kadang kita dapat menemukan makhluk
     hidup yang tidak terlihat dengan mata telanjang di permukaan batu atau di dalam
-    tanah\r\n\n\tKarakteristik makhluk hidup ada yang dapat dengan mudah diamati
+    tanah\r.\n\n\tKarakteristik makhluk hidup ada yang dapat dengan mudah diamati
     oleh kita dan ada yang memerlukan pengamatan secara mendetail. Beberapa karakteristik
     umum dari makhluk hidup adalah:\r\n\t1.\tmemiliki kemampuan untuk bergerak\r\n\t2.\ttumbuh
-    dan berkembang\r\n\t3.\tmemiliki kemampuan untuk bereproduks\r\n\t4.\tmenanggapi
-    rangsangan dari lingkungannya,\r\n\t5.\tmengambil dan menggunakan energi\r\n\t6.\tmemiliki
-    kemampuan bernapas\r\n\t7.\tmenghasilkan limbah (ekskresi), serta\r\n\t8.\ttubuh
-    tersusun dari satu atau banyak sel.\r\n\n\tUntuk sesuatu dapat dianggap sebagai
-    makhluk hidup, harus memenuhi semua karakteristik kehidupan. Istilah 'organisme'
-    digunakan untuk merujuk pada sesuatu yang memiliki kehidupan\r\n"
+    dan berkembang\r\n\t3.\tmemiliki kemampuan untuk bereproduksi\r\n\t4.\tmenanggapi
+    rangsangan dari lingkungannya\r\n\t5.\tmengambil dan menggunakan energi\r\n\t6.\tmemiliki
+    kemampuan bernapas\r\n\t7.\tmenghasilkan limbah (ekskresi)\r\n\t8.\ttubuh tersusun
+    dari satu atau banyak sel\r\n\n\tUntuk sesuatu dapat dianggap sebagai makhluk
+    hidup, harus memenuhi semua karakteristik kehidupan. Istilah 'organisme' digunakan
+    untuk merujuk pada sesuatu yang memiliki kehidupan\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -2360,10 +2360,10 @@ MonoBehaviour:
     termasuk para ilmuwan. Konsep klasifikasi ini dikenalkan oleh Carolus Linnaeus
     yang dikenal juga sebagai bapak taksonomi atau bapak klasifikasi. Sebagai contoh,
     ketika kita berbelanja di minimarket dan ingin membeli pasta gigi, kita akan
-    mencari produk tersebut di rak perlengkapan mandi. Demikian pula, jika \n\t\nkita
-    ingin membeli minuman, kita akan mencarinya di lemari penyimpanan minuman. Semua
-    jenis barang dikelompokkan berdasarkan karakteristik-karakteristik tertentu untuk
-    memudahkan identifikasi dan akses."
+    mencari produk tersebut di rak perlengkapan mandi. Demikian pula, jika kita ingin
+    membeli minuman, kita akan mencarinya di lemari penyimpanan minuman. Semua jenis
+    barang dikelompokkan berdasarkan karakteristik-karakteristik tertentu untuk memudahkan
+    identifikasi dan akses."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -2887,13 +2887,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\tMakhluk hidup mengambil dan manggunakan energi untuk bergerak, tumbuh,
-    berkembang biak dan menjalankan fungsi tubuh lainnya. Tumbuhan menggunakan energi
-    Matahari untuk menjalankan proses fotosintesis.\r\n\n\tFotosintesis adalah proses
-    pengubahan senyawa sederhana (karbon dioksida dan air) menjadi senyawa kompleks
-    (glukosa). Selain glukosa, hasil fotosintesis adalah oksigen. Organisme yang
-    dapat membuat makanan sendiri disebut produsen atau autotrof. Dan organisme yang
-    mendapatkan energi dari organisme lain disebut heterotrof.\r"
+  m_text: "\tMakhluk hidup memiliki kebutuhan akan energi sebagai sumber daya untuk
+    melaksanakan berbagai fungsi dan aktivitas kehidupannya. Energi ini diperoleh
+    melalui proses seperti makanan atau fotosintesis, tergantung pada jenis makhluk
+    hidupnya. Penggunaan energi ini sangat penting untuk mendukung aktivitas harian,
+    termasuk gerak, pertumbuhan, perkembangbiakan, serta menjalankan berbagai fungsi
+    tubuh seperti pernapasan, pencernaan, dan pemeliharaan sel. Dengan demikian,
+    pengambilan dan pemanfaatan energi menjadi prinsip dasar dalam menjaga kelangsungan
+    hidup makhluk hidup. Sebagian lagi energi akan hilang ke lingkungan dalam bentuk
+    panas atau zat sisa."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -5566,9 +5568,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\tAda banyak proses biokimia yang terjadi dalam tubuh makhluk hidup. Selain
-    menghasilkan substansi yang bermanfaat, reaksi-reaksi ini juga menghasilkan zat-zat
-    sisa yang bisa beracun bagi tubuh dan perlu dikeluarkan. Proses pengeluaran zat-zat
-    sisa dari metabolisme ini dikenal sebagai ekskresi."
+    menghasilkan substansi yang bermanfaat yaitu nutrisi, reaksi-reaksi ini juga
+    menghasilkan zat-zat sisa yang bisa beracun bagi tubuh dan perlu dikeluarkan.
+    Proses pengeluaran zat-zat sisa dari metabolisme ini dikenal sebagai ekskresi.
+    Hewan dan manusia memiliki cara yang sama untuk mengeluarkan zat-zat sisa. Zat
+    sisa tersebut dikeluarkan dalam bentuk gas, zat cair, dan zat padat. Berbeda
+    dengan tumbuhan. Tumbuhan mengeluarkan zat sisa melalui stomata."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -5787,8 +5792,8 @@ MonoBehaviour:
     bersumber dari berbagai sumber, termasuk internet, buku siswa IPA kelas 7 SMP
     kurikulum Merdeka, dan sumber lain yang telah diringkas oleh pembuat.\r\n\n\tDalam
     materi \"Klasifikasi Makhluk Hidup,\" terdapat beberapa sub-materi yang akan
-    dipelajari, yaitu:\r\n\tA.      Makhluk Hidup atau Benda Mati?\r\n\tB.      Mengapa
-    Makhluk Hidup Dikelompokkan?\r\n\tC.      Makhluk Hidup Beraneka Ragam\r\n"
+    dipelajari, yaitu:\r\n\tA.      Makhluk Hidup atau Benda Mati.\n\tB.      Pengelompokan
+    Makhluk Hidup.\n\tC.      Makhluk Hidup Beraneka Ragam.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -6515,7 +6520,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\tUntuk membuat klasifikasi lebih mudah, para ilmuwan menggunakan sebuah
     model yang disebut kunci klasifikasi.\r\n\n\tIlmuwan menggunakan kunci klasifikasi
-    karena beberapa alasan berikut.\r\na. Lebih mudah digunakan daripada mendeskripsikan
+    karena beberapa alasan berikut:\r\na. Lebih mudah digunakan daripada mendeskripsikan
     secara detail dari setiap kelompok.\r\nb. Menunjukkan sekilas apa yang membedakan
     karakteristik yang dimiliki setiap kelompok.\r\nc. Memudahkan untuk mengidentifikasi
     objek yang belum pernah terlihat sebelumnya.\r\nd. Selalu memberikan hasil yang
@@ -7761,12 +7766,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\tHewan memerlukan oksigen untuk bernapas (respirasi). Oksigen yang dihirup
-    oleh hewan digunakan untuk mengoksidasi (membakar) zat makanan di dalam sel sehingga
-    dihasilkan energi. Zat sisa dari proses oksidasi ini adalah karbon dioksida dan
-    uap air.\r\n\n\tSama halnya dengan hewan, tumbuhan juga memerlukan oksigen untuk
-    proses oksidasi zat makanan dan menghasilkan zat sisa yang sama yaitu karbon
-    dioksida dan uap air.\r"
+  m_text: "\tBernapas adalah proses mengambil oksigen dari udara dan mengeluarkan
+    karbondioksida sebagai hasil metabolisme. Bernapas adalah ciri-ciri makhluk hidup
+    yang paling utama dan paling umum. Semua makhluk hidup pasti bernapas, Proses
+    ini berbeda-beda tergantung pada jenis makhluk hidupnya. Dalam bernapas membutuhkan
+    oksigen kemudian mengalami pembakaran didalam tubuh dan menghasilkan karbondioksida,
+    tenaga, dan uap air. \r\n\n\tBeberapa makhluk hidup, seperti manusia dan hewan
+    vertebrata, melakukan pernapasan dengan menggunakan sistem pernapasan, seperti
+    paru-paru. Proses ini melibatkan pengambilan oksigen dari udara dan pengeluaran
+    karbon dioksida. Pada hewan invertebrata, seperti serangga, pernapasan dapat
+    melibatkan pertukaran gas melalui sistem trakea, yang merupakan serangkaian tabung
+    udara yang membawa udara langsung ke dalam tubuh. Pada tumbuhan, proses bernapas
+    dinamakan dengan proses fotosintesis. Pada proses fotosintesis, karbondioksida
+    akan diolah bersamaan dengan air dan sinar matahari. Proses tersebut berlangsung
+    di stomata. Akan ada glukosa padat yang dikonsumsi oleh tumbuhan dari proses
+    itu. Setelah itu oksigen akan dikeluarkan oleh tumbuhan melalui stomata."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -7900,11 +7914,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\tMakhluk hidup memberikan tanggapan terhadap perubahan lingkungan. Perubahan
-    lingkungan baik internal maupun eksternal disebut dengan stimulus. Reaksi terhadap
-    perubahan lingkungan disebut dengan respons. Respon terhadap stimulus pada tumbuhan
-    Sebagai contoh, bunga matahari <i>(Helianthus annuus)</i> cenderung bergerak
-    atau mengikuti pergerakan matahari, yang dikenal sebagai fototropisme"
+  m_text: "\tMakhluk hidup menunjukkan kemampuan untuk merespons perubahan lingkungan,
+    baik itu dalam lingkungan internal maupun eksternal, yang umumnya disebut sebagai
+    stimulus. Respons terhadap perubahan lingkungan ini disebut sebagai respons,
+    di mana makhluk hidup memberikan reaksi atau tanggapan sesuai dengan perubahan
+    yang terjadi di sekitarnya. Kemampuan untuk menanggapi rangsangan ini adalah
+    salah satu penanda kehidupan dan adaptasi makhluk hidup terhadap lingkungannya.
+    Rangsangan yang dapat dirasakan oleh makhluk hidup seperti bunyi, cahaya, rasa,
+    sentuhan, bau, suhu, gravitasi bumi  dan lain-lain. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -8655,13 +8672,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\tKemampuan untuk bergerak merupakan karakteristik dasar dari kehidupan.\r\n\n\tTumbuhan
-    juga bergerak setiap kali tumbuh atau menanggapi cahaya. Ciri-ciri kehidupan
-    lainnya, seperti menanggapi rangsangan dan makan (mengumpulkan energi), akan
-    mengandalkan gerakan. Salah satu contoh yang paling terkenal adalah gerakan tumbuhan
-    sensitif, seperti tumbuhan <i>Mimosa pudica</i> atau \"putri malu.\" Tumbuhan
-    ini memiliki daun yang akan melipat atau menutup secara cepat ketika disentuh
-    atau saat terjadi rangsangan fisik.\r"
+  m_text: "\tKemampuan untuk bergerak merupakan karakteristik dasar dari kehidupan.
+    Salah satu ciri dari makhluk hidup adalah bergerak. Secara umum, gerak dapat
+    diartikan berpindah tempat atau perubahan posisi sebagian atau seluruh bagian
+    dari tubuh. Kemampuan bergerak memungkinkan makhluk hidup untuk menyesuaikan
+    diri dengan lingkungannya, merespons rangsangan, dan makan (mengumpulkan energi),
+    akan mengandalkan gerakan yang diperlukan untuk kelangsungan hidupnya."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
@@ -9669,7 +9685,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 6.301697}
-  m_SizeDelta: {x: 1344.8718, y: 739.4568}
+  m_SizeDelta: {x: 1600, y: 850}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1067664947
 MonoBehaviour:
@@ -9846,7 +9862,7 @@ MonoBehaviour:
   m_text: "\tBerikut ini adalah karakateristik umum dari kingdom Monera.\r\n1) Prokariotik\r\n2)
     Tidak memiliki organel\r\n3) Mikroskopis\r\n4) Uniseluler/ multiseluler\r\n5)
     Memiliki dinding sel\r\n6) Memiliki DNA sirkuler\r\n7) Kosmopolit (dapat ditemukan
-    dimana saja)\r\n8) Reproduksi secara vegetatif (membelah diri atau fragmentasi)\r\n\n\tContoh
+    di mana saja)\r\n8) Reproduksi secara vegetatif (membelah diri atau fragmentasi)\r\n\n\tContoh
     dari anggota Monera adalah golongan bakteri dan alga biru (Cyanobacteria). Perbedaan
     dari keduanya di antaranya adalah bakteri dapat reproduksi secara paraseksual
     (pertukaran materi genetik). Adapun alga biru dapat melakukan fotosintesis karena
@@ -10461,11 +10477,11 @@ RectTransform:
   m_Father: {fileID: 893082718}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 649, y: -50}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -20, y: -50}
   m_SizeDelta: {x: 20, y: 500}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1211959428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10510,7 +10526,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1444213804}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.066805616
+  m_Size: 0.077547975
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -14786,7 +14802,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Synopse
+  m_text: Sinopsis
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5944b374d4c431d47b19b931aa2c7e84, type: 2}
   m_sharedMaterial: {fileID: 5583942209876056806, guid: 5944b374d4c431d47b19b931aa2c7e84, type: 2}
@@ -17311,7 +17327,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: B. Mengapa Makhluk Hidup Dikelompokkan?
+  m_text: B. Pengelompokan Makhluk Hidup
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
   m_sharedMaterial: {fileID: 5916816017844463238, guid: bbc4008d82bc14d4280aa32f684a745d, type: 2}
